@@ -175,7 +175,7 @@ export default class GoogleMaps extends React.PureComponent {
         markers={this.props.propertiesList}
         onClick={this.handleClick}
         onClose={this.handleCloseClick}
-        googleMapURL="https://maps.googleapis.com/maps/api/js?key=AIzaSyBOUNN5NBOHyrHAOKyvFkDM1P9zZZOsIug&v=3.exp&libraries=geometry,drawing,places"
+        googleMapURL="https://maps.googleapis.com/maps/api/js?key=secret.exp&libraries=geometry,drawing,places"
         loadingElement={<div style={{ height: `100%` }} />}
         containerElement={<div style={{ height: `calc(100vh)` }} />}
         mapElement={<div style={{ height: `100%` }} />}
